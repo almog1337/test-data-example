@@ -1,7 +1,7 @@
 import axios from "axios";
-import GetData from "./sum";
+import GetData from ".";
 
-describe("test ontology", () => {
+describe("test data", () => {
   beforeAll(async () => {
     global.myGlobalObject = await GetData();
   });
